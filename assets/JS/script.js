@@ -10,9 +10,9 @@ $(document).ready(function () {
 
         // save data in local storage
         localStorage.setItem(time, event);
-
+        
+        // notify data saved
         $(".notification").addClass("show");
-
         setTimeout(function() {
             $(".notification").removeClass("show");
         }, 3000)
