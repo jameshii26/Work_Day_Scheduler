@@ -10,13 +10,18 @@ $(document).ready(function () {
 
         // save data in local storage
         localStorage.setItem(time, event);
-    });
+
+        $(".notification").addClass("show");
+
+        setTimeout(function() {
+            $(".notification").removeClass("show");
+        }, 3000)
+    })
    
     function timeBlockColor() {
-        //get current time in hour
+        //getting current time
         let currentTime = moment().hour();
 
-        // 
         $(".time-block").each(function () {
             let blockTime = parseInt($(this).attr("id").split("hour")[1]);
 
@@ -40,9 +45,9 @@ $(document).ready(function () {
         })
     }
     
-    
-
-    // get items from local storage
+    // get item for local storage
+    // display the saved data
+    // data remain after refresh
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
     $("#hour11 .description").val(localStorage.getItem("hour11"));
