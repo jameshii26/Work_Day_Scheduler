@@ -24,9 +24,9 @@ How to use it?
  1. When the planner is openned, the current day is displayed at the top of the calendar
  2. Scroll down to view time block of the day by hours (9AM-5PM)
  3. Each time block is color-coded to indicate the past, current or future event as below:
- #F2EDDC Past
-#D96A29 Present
-#69AFBF Future
+ ![#F2EDDC] Past
+![#D96A29] Present
+![#69AFBF] Future
  4. Click any time block to add or delete an event
  5. Click save button on the right of the time block to save & a notification will confirm if the item have been saved in the localstorage.
   
