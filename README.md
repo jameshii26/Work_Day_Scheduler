@@ -22,7 +22,7 @@ How to use it?
  1. When the planner is openned, the current day is displayed at the top of the calendar
  2. Scroll down to view time block of the day by hours (9AM-5PM)
  3. Each time block is color-coded to indicate the past, current or future event as below:
-  * ![#F2EDDC](https://via.placeholder.com/15/F2EDDC/000000?text=+) `Past` 
+  * ![#F2EDDC](https://via.placeholder.com/15/F2EDDC/000000?text=+) `Past`
   * ![#D96A29](https://via.placeholder.com/15/D96A29/000000?text=+) `Present`
   * ![#69AFBF](https://via.placeholder.com/15/1589F0/000000?text=+) `Future` 
  4. Click any time block to add or delete an event

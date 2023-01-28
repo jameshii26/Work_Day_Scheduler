@@ -78,3 +78,27 @@ textarea {
 .show {
   display: block;
 }
+
+/** This is for the smaller screen (768px & below) **/
+@media screen and (max-width: 768px), screen and (max-width: 575px) {
+  
+  textarea {
+    min-height: 85px;
+    border: 0;
+  }
+  
+  .row {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .hour {
+    padding-right: 5%;
+  }
+
+  .saveBtn {
+    border: 0;
+    border-radius: 0.25rem;
+    height: 50px;
+  }
+}
